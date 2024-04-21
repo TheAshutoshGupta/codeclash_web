@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React,{ useState } from 'react'
 import Navbar from './Components/Navbar'
 import { motion, AnimatePresence } from 'framer-motion'
 import { textRevealMotion } from './utils/animations'
@@ -17,6 +17,17 @@ import Judges from './Components/Judges'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
 
   return (
     <>
@@ -42,6 +53,14 @@ function App() {
                   and champions arise 
 
                   <div className='text-3xl my-6'>GLBITM, Greater Noida</div>
+
+                  <div
+                    className="apply-button"
+                    data-hackathon-slug="codeclash24"
+                    data-button-theme="light"
+                    style={{ height: "44px", width: "312px" }}
+                  ></div>
+
                  </motion.div>
                  
                  

@@ -15,7 +15,9 @@ const Navbar=({menuOpen, setMenuOpen})=> {
 
       <NavMenutoggle menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
 
-      <ButtonRotatingBackgroundGradient title={"Get in Touch"}/>
+      <a className='inline-block w-fit ml-auto' href='mailto:codeclash.glbitm@gmail.com'>
+        <ButtonRotatingBackgroundGradient title={"Get in Touch"}/>
+      </a>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function Themes() {
     <div className='flex relative py-20 justify-center gap-10 items-center flex-col'>
      <div class="absolute z-10 h-full w-full"><div class=" h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px]"></div></div>
     <span className='inline-flex uppercase mx-auto font-extrabold text-4xl sm:text-3xl lg:text-5xl animate-text-gradient bg-gradient-to-r from-[#b2a8fd] via-[#8678f9] to-[#c7d2fe] bg-[200%_auto] bg-clip-text text-transparent'>
-    Theme
+    Tracks
   </span>
   <div className='flex justify-center items-center gap-10 flex-col '>
   <div className='flex justify-center items-center gap-10 flex-col md:flex-row'>
