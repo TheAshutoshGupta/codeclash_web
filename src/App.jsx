@@ -57,8 +57,8 @@ function App() {
                   <div
                     className="apply-button"
                     data-hackathon-slug="codeclash24"
-                    data-button-theme="light"
-                    style={{ height: "44px", width: "312px" }}
+                    data-button-theme="dark"
+                    style={{ height: "44px", width: "312px", borderRadius: "22px" }}
                   ></div>
 
                  </motion.div>
