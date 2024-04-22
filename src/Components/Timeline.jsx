@@ -13,29 +13,29 @@ function Timeline() {
 	<ul className="space-y-12 p-8">
 		<li className="flex items-start space-x-4">
 			<p className="flex flex-col mb-1 justify-center p-2 rounded-xl bg-purple-800 h-full flex-wrap text-xl hover:underline">
-            <span className=' text-3xl font-bold'>24</span>
-            <span className='text-lg mt-2 justify-self-end'>MAY</span>
+            <span className=' text-3xl font-bold'>6</span>
+            <span className='text-lg mt-2 justify-self-end'>April</span>
             </p>
 			<div className="flex-1 space-y-2">
 				<div className="flex items-center justify-between space-x-4 dark:text-white">
-                <ButtonRotatingBackgroundGradient title={"08:30 - 09:30"}/>
+                <ButtonRotatingBackgroundGradient title={"0:00"}/>
 				</div>
 				<div>
-					<p className='font-semibold text-3xl'>Registration & Onboarding of participants</p>
+					<p className='font-semibold text-3xl'>Registration Starts</p>
 				</div>
 			</div>
 		</li>
         <li className="flex items-start space-x-4">
 			<p className="flex flex-col mb-1 justify-center p-2 rounded-xl bg-purple-800 h-full text-xl hover:underline">
-            <span className=' text-3xl font-bold'>24</span>
+            <span className=' text-3xl font-bold'>19</span>
             <span className='text-lg mt-2 justify-self-end'>MAY</span>
             </p>
 			<div className="flex-1 space-y-2">
 				<div className="flex items-center justify-between space-x-4 dark:text-white">
-                <ButtonRotatingBackgroundGradient title={"08:30 - 09:30"}/>
+                <ButtonRotatingBackgroundGradient title={"23:59"}/>
 				</div>
 				<div>
-					<p className='font-bold text-3xl'>Registration & Onboarding of participants</p>
+					<p className='font-semibold text-3xl'>Registration Ends</p>
 				</div>
 			</div>
 		</li>
@@ -46,31 +46,27 @@ function Timeline() {
             </p>
 			<div className="flex-1 space-y-2">
 				<div className="flex items-center justify-between space-x-4 dark:text-white">
-                <ButtonRotatingBackgroundGradient title={"08:30 - 09:30"}/>
+                <ButtonRotatingBackgroundGradient title={"09:30"}/>
 				</div>
 				<div>
-					<p className='font-bold text-3xl'>Registration & Onboarding of participants</p>
+					<p className='font-semibold text-3xl'>Hackathon Starts</p>
 				</div>
 			</div>
 		</li>
         <li className="flex items-start space-x-4">
 			<p className="flex flex-col mb-1 justify-center p-2 rounded-xl bg-purple-800 h-full flex-wrap text-xl hover:underline">
-            <span className=' text-3xl font-bold'>24</span>
+            <span className=' text-3xl font-bold'>25</span>
             <span className='text-lg mt-2 justify-self-end'>MAY</span>
             </p>
 			<div className="flex-1 space-y-2">
 				<div className="flex items-center justify-between space-x-4 dark:text-white">
-                <ButtonRotatingBackgroundGradient title={"08:30 - 09:30"}/>
+                <ButtonRotatingBackgroundGradient title={"17:00"}/>
 				</div>
 				<div>
-					<p className='font-bold text-3xl'>Registration & Onboarding of participants</p>
+					<p className='font-semibold text-3xl'>Hackathon Ends</p>
 				</div>
 			</div>
-		</li>
-
-        
-
-		
+		</li>	
 	</ul>
     </div>
 </div>
