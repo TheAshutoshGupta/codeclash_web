@@ -2,6 +2,7 @@ import React from 'react'
 
 import harsh from '../assets/teamImages/harshraj.png'
 import harshdeep    from '../assets/teamImages/harshdeep.jpeg'
+import bhuvnesh    from '../assets/teamImages/bhuvnesh.jpeg'
 import ayush       from '../assets/teamImages/ayushkumar.jpeg'
 import prachi       from "../assets/teamImages/prachi.jpeg"
 import priyanshi  from "../assets/teamImages/priyanshi.jpg"
@@ -40,6 +41,7 @@ https://www.linkedin.com/in/ashutooshgupta/ */}
 
 
     <Cards img={harshdeep} name={"Harsh Deep"} post={"Lead Organizer"} linkedin={"https://www.linkedin.com/in/harsh-deep-313ba6248"}/>
+    <Cards img={bhuvnesh} name={"Bhuvnesh Sharma"} post={"Lead Organizer"} linkedin={"https://www.linkedin.com/in/bhuvnesh-sharma-a7560a203/"}/>
     <Cards img={ayush} name={"Ayush Kumar"} post={"Github Campus Expert"} linkedin={"https://www.linkedin.com/in/ayush-kumar-984443191/"}/> 
     <Cards img={prachi} name={"Prachi Agarwal"} post={"Content Lead & Co-host"} linkedin={"https://www.linkedin.com/in/prachi-agarwal-000378230/"}/>   
     <Cards img={priyanshi} name={"Priyanshi Agarwal"} post={"Design Lead"} linkedin={"https://www.linkedin.com/in/priyanshi-agrawal-a428aa201/"}/>
