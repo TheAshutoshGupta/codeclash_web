@@ -45,7 +45,7 @@ https://www.linkedin.com/in/ashutooshgupta/ */}
     <Cards img={ayush} name={"Ayush Kumar"} post={"Github Campus Expert"} linkedin={"https://www.linkedin.com/in/ayush-kumar-984443191/"}/> 
     <Cards img={prachi} name={"Prachi Agarwal"} post={"Content Lead & Co-host"} linkedin={"https://www.linkedin.com/in/prachi-agarwal-000378230/"}/>   
     <Cards img={priyanshi} name={"Priyanshi Agarwal"} post={"Design Lead"} linkedin={"https://www.linkedin.com/in/priyanshi-agrawal-a428aa201/"}/>
-    <Cards img={neha} name={"Neha Rajvanshi"} post={"Social Media Lead"} linkedin={"https://www.linkedin.com/in/neha-rajvanshi-a180b0214/"}/>     
+    <Cards img={neha} name={"Neha Rajvanshi"} post={"Social Media Lead & Design Team"} linkedin={"https://www.linkedin.com/in/neha-rajvanshi-a180b0214/"}/>     
     <Cards img={ashu} name={"Ashutosh Gupta"} post={"Technical Team"} linkedin={"https://www.linkedin.com/in/ashutooshgupta/"}/>     
     <Cards img={aadhya} name={"Aadhya Pahariya"} post={"Content Team"} linkedin={"https://www.linkedin.com/in/aadhyaa-pahariya-9181a9222/"}/>   
     <Cards img={amrita} name={"Amrita Yadav"} post={"Content Team"} linkedin={"https://www.linkedin.com/in/amrita-yadav-521523201/"}/>   
