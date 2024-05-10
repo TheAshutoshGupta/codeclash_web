@@ -12,6 +12,9 @@ import amrita     from "../assets/teamImages/amrita.jpeg"
 import neelesh    from "../assets/teamImages/neelesh.jpeg"
 import jigisha    from "../assets/teamImages/Jigisha.png"
 import neha        from "../assets/teamImages/neha.jpeg"
+import rizwan from "../assets/teamImages/rizwan.jpeg"
+import juhi from "../assets/teamImages/juhi.jpg"
+import ravish from "../assets/teamImages/ravish.jpeg"
 
 
 function OurTeam() {
@@ -50,7 +53,11 @@ https://www.linkedin.com/in/ashutooshgupta/ */}
     <Cards img={aadhya} name={"Aadhya Pahariya"} post={"Content Team"} linkedin={"https://www.linkedin.com/in/aadhyaa-pahariya-9181a9222/"}/>   
     <Cards img={amrita} name={"Amrita Yadav"} post={"Content Team"} linkedin={"https://www.linkedin.com/in/amrita-yadav-521523201/"}/>   
     <Cards img={neelesh} name={"Neelesh Maurya"} post={"Design Team"} linkedin={"https://www.linkedin.com/in/neeleshmaurya/"}/>  
-    <Cards img={jigisha} name={"Jigisha Baliyann"} post={"Design Team"} linkedin={"https://in.linkedin.com/in/jigisha-baliyann"}/>  
+    <Cards img={jigisha} name={"Jigisha Baliyann"} post={"Design Team"} linkedin={"https://in.linkedin.com/in/jigisha-baliyann"}/>
+    <Cards img={juhi} name={"Juhi Pathak"} post={"Technical Team, Content Team, DAM Team"} linkedin={"http://linkedin.com/in/juhi-pathak/"}/>
+    <Cards img={ravish} name={"Ravish kumar "} post={"Outreach and Marketing Team"} linkedin={"https://www.linkedin.com/in/ravish-kumar-b0aaa8215/"}/> 
+    <Cards img={rizwan} name={"Rizwan"} post={"Photography Team"} linkedin={"https://www.linkedin.com/in/franklinrizzy/"}/> 
+    
     </div>
     </div>
   )
